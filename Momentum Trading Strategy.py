@@ -10,8 +10,8 @@ import pandas_datareader as web
 import matplotlib.pyplot as plt
 import datetime
 
-start=datetime.datetime(2018,01,01)
-end=datetime.datetime(2019,06,30)
+start=datetime.datetime(2018,1,1)
+end=datetime.datetime(2019,6,30)
 ford=web.DataReader('F','yahoo',start,end)
 
 def momentum(price,period):
